@@ -55,9 +55,9 @@ public class BinaryTreeInOrder {
         BinaryTreeInOrder bi=new BinaryTreeInOrder();
         // Creating a binary tree
         TreeNode rootNode=createBinaryTree();
-//        System.out.println("InOrder Using Recursive solution:");
-// 
-//        bi.inOrder(rootNode);
+        System.out.println("InOrder Using Recursive solution:");
+ 
+        bi.inOrder(rootNode);
  
         System.out.println();
         System.out.println("-------------------------");
